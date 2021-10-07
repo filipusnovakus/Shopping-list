@@ -20,33 +20,20 @@ public class ShoppingList {
         if (args.length != 0) {
             for (String i : args) {
                 switch (i) {
-                    case "0":System.out.println("Red Bull energy drink");cena += 34;
-                      
-                    case "1":System.out.println("Malboro cigu");cena += 125;
-                        
+                    case "0":System.out.println("Red Bull energy drink");cena += 34;  
+                    case "1":System.out.println("Malboro cigu");cena += 125;  
                     case "2":System.out.println("Branik");cena += 32;
-                      
-                    case "3":System.out.println("Pikao");cena += 200;
-                       
-                    case "4":System.out.println("Golf");cena += 45;
-                        
-                    case "5":System.out.println("Potratová pilulka Christian");cena += 700;
-                      
+                    case "3":System.out.println("Pikao");cena += 200;    
+                    case "4":System.out.println("Golf");cena += 45; 
+                    case "5":System.out.println("Potratová pilulka Christian");cena += 700; 
                     case "6":System.out.println("CBD");cena += 230;
-                   
                     default:
                         
                 }
             }
-            System.out.println("\n-------------------------\n"+cena+" CZK");
+            System.out.println("cena+" CZK");
         } else {
-            System.out.println("1 Cerveneho byka ");
-            System.out.println("2 cigy malbora");
-            System.out.println("3 Branu v petce");
-            System.out.println("3 pikao");
-            System.out.println("4 bagetku golfika");
-            System.out.println("5 Christiana ");
-            System.out.println("6 CBD ");
+            System.out.println("1 Cerveneho byka " + "2 cigy malbora" + "3 Branu v petce" + "3 pikao" +  "4 bagetku golfika" + "5 Christiana "+ "6 CBD ");
            
         }
 
