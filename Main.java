@@ -31,7 +31,7 @@ public class ShoppingList {
                         
                 }
             }
-            System.out.println("cena+" CZK");
+            System.out.println(cena+" CZK");
         } else {
             System.out.println("1 Cerveneho byka " + "2 cigy malbora" + "3 Branu v petce" + "3 pikao" +  "4 bagetku golfika" + "5 Christiana "+ "6 CBD ");
            
